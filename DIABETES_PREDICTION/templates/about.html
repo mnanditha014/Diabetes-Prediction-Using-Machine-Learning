@@ -1,0 +1,122 @@
+{% extends 'layout.html' %}
+{% block body %}
+<div class="container mt-5">
+  <h1 class="display-4 text-center mb-5"><strong><u>Understanding Diabetes</u></strong></h1>
+
+  <div class="row">
+    <div class="col-md-6">
+      <h2 class="text-primary">What is Diabetes?</h2>
+      <p>Diabetes is a chronic health condition characterized by elevated levels of sugar (glucose) in the blood. It occurs when the body either doesn't produce enough insulin or can't effectively use the insulin it produces. Insulin is a hormone that regulates blood sugar levels.</p>
+    </div>
+    <div class="col-md-6">
+      <h2 class="text-primary">Types of Diabetes</h2>
+      <ul>
+        <li>Type 1 Diabetes</li>
+        <li>Type 2 Diabetes</li>
+        <li>Gestational Diabetes</li>
+      </ul>
+      <p>Each type of diabetes has its own causes, symptoms, and treatments.</p>
+    </div>
+  </div>
+
+  <div class="row mt-4">
+    <div class="col-md-6">
+      <h2 class="text-primary">Symptoms of Diabetes</h2>
+      <ul>
+        <li>Frequent urination</li>
+        <li>Excessive thirst</li>
+        <li>Unexplained weight loss</li>
+        <li>Extreme hunger</li>
+        <li>Fatigue</li>
+        <li>Blurred vision</li>
+        <li>Slow wound healing</li>
+      </ul>
+    </div>
+    <div class="col-md-6">
+      <h2 class="text-primary">Causes of Diabetes</h2>
+      <p>The exact cause of diabetes varies depending on the type:</p>
+      <ul>
+        <li>Type 1 Diabetes: Autoimmune reaction</li>
+        <li>Type 2 Diabetes: Insulin resistance</li>
+        <li>Gestational Diabetes: Hormonal changes during pregnancy</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="row mt-4">
+    <div class="col-md-12">
+      <h2 class="text-primary">Health Tips Related to Diabetes</h2>
+      <ul>
+        <li>Maintain a healthy diet with balanced carbohydrates, proteins, and fats</li>
+        <li>Stay physically active with regular exercise</li>
+        <li>Monitor blood sugar levels regularly</li>
+        <li>Take prescribed medications as directed</li>
+        <li>Manage stress levels</li>
+        <li>Get regular check-ups with healthcare providers</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="row mt-4">
+    <div class="col-md-12">
+      <h2 class="text-primary">Attributes Details in Diabetes Dataset</h2>
+      <table class="table">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Attribute</th>
+            <th>Description</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Age</td>
+            <td>The age of the individual, typically measured in years.</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Gender</td>
+            <td>The gender of the individual, indicating whether they are male or female.</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>FPG (Fasting Plasma Glucose)</td>
+            <td>The concentration of glucose in the blood after an overnight fast, measured in milligrams per deciliter (mg/dL). Elevated levels may indicate diabetes.</td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>Chol (Total Cholesterol)</td>
+            <td>The total amount of cholesterol in the blood, measured in milligrams per deciliter (mg/dL).</td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>Tri (Triglycerides)</td>
+            <td>The amount of triglycerides in the blood, measured in milligrams per deciliter (mg/dL).</td>
+          </tr>
+          <tr>
+            <td>6</td>
+            <td>HDL (High-Density Lipoprotein)</td>
+            <td>The level of high-density lipoprotein, often referred to as "good" cholesterol, measured in milligrams per deciliter (mg/dL).</td>
+          </tr>
+          <tr>
+            <td>7</td>
+            <td>LDL (Low-Density Lipoprotein)</td>
+            <td>The level of low-density lipoprotein, often referred to as "bad" cholesterol, measured in milligrams per deciliter (mg/dL).</td>
+          </tr>
+          <tr>
+            <td>8</td>
+            <td>ALT (Alanine Aminotransferase)</td>
+            <td>A liver enzyme, measured in units per liter (U/L), which can be an indicator of liver health.</td>
+          </tr>
+          <tr>
+            <td>9</td>
+            <td>CCR (Creatinine Clearance Rate)</td>
+            <td>A measure of the kidney function, often expressed in milliliters per minute (mL/min).</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+{% endblock %}
